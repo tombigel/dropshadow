@@ -1,0 +1,27 @@
+#a {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: 400px;
+  top: 100px;
+  left: 100px;
+}
+
+#controls {
+  position: relative;
+  width: 200px;
+  top: 10px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#controls input {
+  display: block;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 50%;
+}
