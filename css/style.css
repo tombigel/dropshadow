@@ -1,27 +1,21 @@
 #a {
   display: flex;
-  justify-content: space-evenly;
-  position: relative;
-  width: 400px;
-  top: 100px;
-  left: 100px;
+  justify-content: center;
+  padding: 50px 0 50px;
+  border: 1px solid black;
 }
 
 #controls {
-  position: relative;
-  width: 200px;
-  top: 10px;
-  left: 100px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  padding: 15px 0 15px;
+}
+#controls label {
+  width: 200px;
 }
 #controls input {
   display: block;
-}
-
-#circle {
-  width: 150px;
-  height: 150px;
-  background: red;
-  border-radius: 50%;
+  width: 99%;
 }
